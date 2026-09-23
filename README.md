@@ -107,6 +107,24 @@ Help translate AI Hub into your language! We use [Weblate](https://hosted.weblat
 This is an **independent, open-source project** developed and maintained by an individual (**Silent Coder**) with community help. It is not a commercial product and has no relationship with OpenAI, Google, Anthropic, Meta, Mistral, or any other AI provider.
 
 
+ 
+## 🧭 Engineering Documentation
+
+The application README remains focused on the product. Engineering support is maintained separately in [docs/](docs/README.md).
+
+**Understand → Install → Operate → Diagnose → Repair → Validate → Stage → Improve**
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Installation](docs/INSTALL.md)
+- [Operations](docs/OPERATIONS.md)
+- [Repair & Recovery](docs/REPAIR.md)
+- [Testing & Validation](docs/TESTING.md)
+- [Staging](docs/STAGING.md)
+- [Tools](docs/TOOLS.md)
+- [Reference](docs/REFERENCE.md)
+
+The documentation describes the current implementation and existing repository mechanisms; it does not replace the source code, tests, Gradle configuration, or CI workflows.
+
 ## 📄 License
 
 Released under the **GNU General Public License v3.0**.  
