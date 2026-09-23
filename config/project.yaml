@@ -1,0 +1,40 @@
+project:
+  id: sasa
+  name: SASA
+  display_name: AI Hub
+  role: ai-hub-android-application
+  status: active
+
+documentation:
+  standard: twgt-repository-engineering-v1
+  entrypoint: README.md
+  index: docs/README.md
+  architecture: docs/ARCHITECTURE.md
+  installation: docs/INSTALL.md
+  operations: docs/OPERATIONS.md
+  repair: docs/REPAIR.md
+  testing: docs/TESTING.md
+  staging: docs/STAGING.md
+  tools: docs/TOOLS.md
+  reference: docs/REFERENCE.md
+
+engineering:
+  principle: preserve-working-patterns
+  lifecycle:
+    - observe
+    - understand
+    - plan
+    - implement
+    - validate
+    - review
+    - measure
+    - record
+
+validation:
+  source_of_truth:
+    - repository-build-configuration
+    - repository-tests
+    - github-actions
+
+recovery:
+  procedure: docs/REPAIR.md
